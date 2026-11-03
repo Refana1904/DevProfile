@@ -1,16 +1,91 @@
-# React + Vite
+# 🚀 DevProfile — GitHub Profile Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevProfile is a React-based web application that helps users explore GitHub developer profiles and their public repositories using a GitHub username.
 
-Currently, two official plugins are available:
+## 📸 Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Home Page
+![DevProfile Home Page](screenshots/home.png)
 
-## React Compiler
+### Developer Profile and Repositories
+![Developer Profile](screenshots/profile1.png)
+![Developer Profile](screenshots/profile2.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Search GitHub developers by username.
+- View profile pictures, names, bios, and locations.
+- Display followers, following, and public repository counts.
+- Explore public repositories.
+- Search repositories by name or description.
+- Filter repositories by programming language.
+- Sort repositories by stars, recently updated, and name.
+- View repository statistics, including stars and languages.
+- Display repository forks, watchers, and open issues.
+- Load additional repositories using pagination.
+- Handle invalid usernames, network failures, and API errors.
+- Responsive interface for desktop and mobile screens.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- GitHub REST API
+- Vite
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Refana1904/DevProfile.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd DevProfile
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open the application
+
+Visit the local URL displayed in your terminal, usually:
+
+`http://localhost:5173/`
+
+## 🔗 GitHub API
+
+This application uses the GitHub REST API.
+
+- **User Profile:** `https://api.github.com/users/{username}`
+- **Repositories:** `https://api.github.com/users/{username}/repos`
+
+## 🎯 Project Objective
+
+To build an interactive GitHub developer explorer while gaining practical experience in React, API integration, state management, and responsive frontend development.
+
+## 👩‍💻 Author
+
+**Refana S**
+
+B.Tech Information Technology
+
+GitHub: [Refana1904](https://github.com/Refana1904)
+
+---
+
+*Built with React and Vite.*
